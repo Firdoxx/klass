@@ -1,0 +1,64 @@
+<!--
+--  Downloaded from : https://haxor.my.id/save/Araara.html
+--  Official Web : https://prinsh.com
+--  script-deface-generator.prinsh.com
+-->
+<!--
+--  Downloaded from : https://haxor.my.id/save/Hackerplanet.html
+--  Official Web : https://prinsh.com
+--  script-deface-generator.prinsh.com
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Shadow</title>
+    </head>
+    <style type='text/css'>
+    body {
+    background-color: #000000;
+    text-align: center;
+}
+
+.s {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%);
+    font-size: 135px;
+    font-family: Arial;
+    color: #aa55ff;
+}
+
+.s1 {
+    z-index: 1;
+    text-shadow: 4px 4px 10px #000000,
+                 5px 5px 75px #7722cc,
+                 -5px -5px 75px #7722cc;
+    animation: text-shadow 3s alternate infinite;
+}
+
+.s2 {
+    font-size: 130px;
+    color: #000000;
+    z-index: 2;
+}
+
+@keyframes text-shadow {
+    from {
+        text-shadow: 0px 0px 0px #000000,
+                     0px 0px 0px #000000,
+                     0px 0px 0px #000000;
+    }
+    to {
+        text-shadow: 4px 4px 10px #000000,
+                     5px 5px 75px #7722cc,
+                     -5px -5px 75px #7722cc;
+    }
+}
+</style>
+    <body>
+        <span class="s1 s">GOO ATTACK ME </span>
+        <span class="s2 s">GOO ATTACK ME </span>
+    </body>
+</html>
